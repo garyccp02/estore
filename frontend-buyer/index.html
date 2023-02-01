@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Buyer Frontend Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div id="unsoldProductsDiv">Unsold Products
+        </div>
+        <button id="viewUnsold" type="button">View Unsold Products</button>
+        <div id="viewProductDiv">View Product
+            <form method="GET" id="viewProduct">
+                <input type="text" name="vendor" id="vpvendor" value="vendor">
+                <input type="text" name="name" id="vpname" value="name">
+                <button type="submit">Search</button>
+            </form>
+            <div id="viewproductdetails">
+            </div>
+        </div>
+    </body>
+</html>
